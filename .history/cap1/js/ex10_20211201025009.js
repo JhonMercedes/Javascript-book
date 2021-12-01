@@ -1,0 +1,14 @@
+
+    /*
+    Elabore um programa que leia a duração de uma viagem em dias e horas. Calcule
+    e informe a duração total da viagem em números de horas.
+    */
+
+    var dia = Number(prompt("Infome a quantidade de dias de viagem: "));
+    var hora = Number(prompt("Infome a quantidade de horas: "));
+
+    qtdDia = dia * 24;
+    qtdHora = hora * 1;
+
+    totalHoras = qtdDia + qtdHora;
+    alert("Total de horas: "+totalHoras);
