@@ -1,6 +1,5 @@
-<meta charset="UTF-8">
-<script>
+console.log {
     var nome = prompt("Qual é seu nome ?");
     alert("Olá" + nome);
-</script>
-    
+
+}
