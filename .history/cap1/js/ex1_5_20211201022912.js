@@ -1,6 +1,0 @@
-
-    var fruta = "Banana";
-    var preco = 3.50;
-    var levar = true;
-    var novoValor;
-    alert(fruta + " " + preco+ " " + levar + " " + novoValor);
