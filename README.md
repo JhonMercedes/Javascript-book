@@ -2,7 +2,7 @@
 
 Algoritmos com JavaScritp
 
-## Cappitulo 1  
+## Capitulo 1  
 
 Exercicios
 
