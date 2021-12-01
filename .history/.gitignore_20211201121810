@@ -1,2 +1,0 @@
-rm --cached .history
-rm --cached .gitattibutes
