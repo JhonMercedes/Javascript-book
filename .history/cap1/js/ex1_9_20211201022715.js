@@ -1,4 +1,4 @@
-
+<script>
     /*
     ler um valor 
     calcular a taxa de 10% do garçom 
@@ -12,3 +12,4 @@
 
     alert("Taxa de serviço: "+ taxa.toFixed(2) + "\nTotal: "+ total.toFixed(2));
 
+</script>

@@ -1,4 +1,4 @@
-
+<script>
     /*
     Operações envolvendo strings e números
     */
@@ -9,3 +9,4 @@ var d = a - 2;
 var e = a + 2;
 
 alert("e: " +e);
+</script>

@@ -1,3 +1,5 @@
+<script>
+
     /*
     ler dois numeros
     calcular soma 
@@ -9,3 +11,4 @@
     result = num1 + num2;
 
     alert("A soma dos valores inseridos é: " + result);
+</script>
