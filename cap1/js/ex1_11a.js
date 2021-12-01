@@ -1,0 +1,13 @@
+
+
+    /*
+    Elaborar um progama que leia um número, calcule e informe os seus vizinhos,
+     ou seja, o número anterior e posterior.
+    */
+    var num = Number(prompt("Digite um valor: "));
+
+    anterior = num -1;
+    posterior = num +1;
+
+    alert("Número: "+num +"\nVizinhos: "+ anterior + " e " + posterior);
+    
