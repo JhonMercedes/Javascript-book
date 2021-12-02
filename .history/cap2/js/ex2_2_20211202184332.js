@@ -1,0 +1,1 @@
+var duracao = document.getElementsById("minutos");
