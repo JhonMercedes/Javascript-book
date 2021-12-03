@@ -9,7 +9,7 @@ function converterDuracao() {
     var inTitulo = document.getElementById("inTitulo");
     var inDuracao = document.getElementById("inDuracao");
     var outTitulo = document.getElementById("outTitulo");
-    var outDuracao = document.getElementById("outDuracao");
+    var outResposta = document.getElementById("outResposta");
 
     // obtem conteudo dos campos de entrada para
     var titulo = inTitulo.value;
@@ -24,6 +24,6 @@ function converterDuracao() {
     outResposta.textContent = horas + " horas e " + minutos + " minutos(s) ";
 }
 // cria uma referencia ao elemento btConverter (botão)
-var btConverter = document.getElementsById("btConverter");
+var btConverter = document.getElementById("btConverter");
 //registra um evento associado ao botão para carregar uma função
 btConverter.addEventListener("click", converterDuracao);
