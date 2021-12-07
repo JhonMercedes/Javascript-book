@@ -6,10 +6,10 @@ function calcularPreco() {
     var preco = Number(inPreco.value);
     var tempo = Number(inTempo.value);
 
-    total = preco * tempo;
+    total = Math.ceil(tempo / 15) * preco;
 
 
-    outTotal.textContent = "Valor " + total;
+    outTotal.textContent = "Valor " + total.toFixed(2);
 
 }
 var btCalcular = document.getElementById("btCalcular");
