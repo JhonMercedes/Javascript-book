@@ -2,7 +2,7 @@ function calcularPreco() {
     //cria ref ao elementos da pagina 
     var inQuilo = document.getElementById("inQuilo");
     var inConsumo = document.getElementById("inConsumo");
-    var outVarlos = document.getElementById("outVarlor");
+    var outValor = document.getElementById("outValor");
 
 
 //obtem conteudo dos campos de entrada
