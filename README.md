@@ -31,7 +31,17 @@ Exercicios
 Pasta Js inserida no projeto para solucionar os problemas
 
 1. Documento HTML com campos de formulario
-    - Programa Js que exibe o nome informado pelo user no campo edição
+- Programa Js que exibe o nome informado pelo user no campo edição
 2. Elaborar um programa para uma video Locadora, que leia o titulo e a duração de um filme em minutos. Exiba o titulo do filme e converta a duração para horas e minutos.
 3. Elaborar um programa para revenda e veiculos. O programa deve ler modelo e preço do veiculo. Apresentar como resposta o valor da entrada de 50% e do saldo em 12x.
 4. Elaborar um programa para um restaurante que leia o preço por kg e o consumo em gramas de um cliente, exibir o valor a ser pago.
+
+5. Desafio: 
+
+- a) Na compra de duas unidades de um mesmo medicament , o cliente recebe como desconto os centavos do valor total. Elaborar um programa que leia a descrição e o preco de um medicamento. informe o valor do produto na promoção.
+
+- b) O programa deve ler o valor de cada 15min de uso de umcomputador e o tempo de uso por um cliente em minutos. Informe o valor a ser pago pelo cliente, sabendo que as frações extras de 15min devem ser cobradas de forma integral.
+
+- c) Para aumentar suas vendas no setor de higiene, cada etiqueta de produto deve exibir uma mensagem anunciada de 50% de desconto para um item na compra de tres unidades do produto.Elaborar um programa que leia descrição e o preco de um produto, após apresnte as mensagens indicando a promoção.
+
+## Capitulo 3
