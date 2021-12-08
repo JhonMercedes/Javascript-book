@@ -45,3 +45,4 @@ Pasta Js inserida no projeto para solucionar os problemas
 - c) Para aumentar suas vendas no setor de higiene, cada etiqueta de produto deve exibir uma mensagem anunciada de 50% de desconto para um item na compra de tres unidades do produto.Elaborar um programa que leia descrição e o preco de um produto, após apresnte as mensagens indicando a promoção.
 
 ## Capitulo 3
+
