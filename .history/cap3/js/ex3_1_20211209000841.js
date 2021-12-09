@@ -19,8 +19,7 @@ function calcularMedia () {
         outSituacao.textContent = "Parabéns "+nome+ "! Voce foi aprovado(a)";
         outSituacao.style.color = "green";
     }else {
-        outSituacao.textContent = "Ops "+nome+ "... Voce foi reprovado(a)";
-        outSituacao.style.color = "red";
+        outSituacao.textContent = "Ops "+nome+ "... Voce foi reprovado(a)"
     }
 }
 
