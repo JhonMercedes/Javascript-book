@@ -10,16 +10,4 @@ function calcularMedia () {
     var nota2 = inNota2.value;
 
     var media = (nota1 + nota2) / 2;
-
-    outMedia.textContent = "Média das notas: " + media.toFixed(1);
-
-    //condição
-
-    if (media >=7 ){
-        outSituacao.textContent = "Parabéns "+nome+ "! Voce foi aprovado(a)";
-
-    }else {
-        
-    }
-
 }
