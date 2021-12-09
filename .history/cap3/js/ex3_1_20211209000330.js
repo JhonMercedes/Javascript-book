@@ -7,7 +7,7 @@ function calcularMedia () {
 
     var nome = inAluno.value;
     var nota1 = Number(inNota1.value);
-    var nota2 = Number(inNota2.value);
+    var nota2 = Number*inNota2.value);
 
     var media = (nota1 + nota2) / 2;
 

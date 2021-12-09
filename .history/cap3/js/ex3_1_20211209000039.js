@@ -6,8 +6,8 @@ function calcularMedia () {
     var outSituacao = document.getElementById("outSituacao");
 
     var nome = inAluno.value;
-    var nota1 = Number(inNota1.value);
-    var nota2 = Number(inNota2.value);
+    var nota1 = inNota1.value;
+    var nota2 = inNota2.value;
 
     var media = (nota1 + nota2) / 2;
 
@@ -21,7 +21,5 @@ function calcularMedia () {
     }else {
         outSituacao.textContent = "Ops "+nome+ "... Voce foi reprovado(a)"
     }
-}
 
-var btResultado = document.getElementById("btResultado");
-    btResultado.addEventListener("click", calcularMedia);
+}
