@@ -45,7 +45,7 @@ btCalcularPeso.addEventListener("click", calcularPeso);
 
 function limparCampos () {
     document.getElementsByName("inNome").value ="";
-    document.getElementsByName("rbFem").checked = false;
+    document.getElementsByName("rbFem").checked = fase;
     document.getElementsByName("rbMasc").checked = fasle;
     document.getElementsByName("inAltura").value = "";
     document.getElementsByName("outResultado").value = "";
@@ -53,5 +53,3 @@ function limparCampos () {
     document.getElementsByName("inNome").focus();
 
 }
-var btLimpar = document.getElementById("btLimpar");
-btLimpar.addEventListener("click",limparCampos);
