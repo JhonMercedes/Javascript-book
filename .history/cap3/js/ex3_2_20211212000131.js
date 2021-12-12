@@ -40,5 +40,5 @@ function calcularPeso() {
     outResultado.textContent = nome + ": seu peso idela é " + peso.toFixed(3) + " kg";
 }
 
-var btCalcularPeso = document.getElementById("btCalcularPeso");
-btCalcularPeso.addEventListener("click", calcularPeso);
+var btCalcular = document.getElementById("btCalcular");
+btCalcular.addEventListener("click", calcularPeso);
