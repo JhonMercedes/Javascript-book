@@ -11,13 +11,13 @@ function calcularPeso() {
     var nome = inNome.value;
     var fem = rbFem.checked;
     var masc = rbMasc.checked;
-    var altura = Number(inAltura.value);
+    var alutra = Number(inAltura.value);
 
     //verificar se o nome foi preenchido e o sexo foi selecionado
-    if (nome == "" || (fem == false && masc == false)) {
-        alert("Por favor, informe o nome e selecione o sexo...")
-        inNome.focus(); // posiciona (joga o foco) no campo de edição inNome
-        return;
+if (nome == "" || (fem == false && masc == false)) {
+    alert("Por favor, informe o nome e selecione o sexo...")
+    inNome.focus(); // posiciona (joga o foco) no campo de edição inNome
+    return;
 }
 
     /*se altura vazio(0) ou NaN: Not-a-number (um texto for informado
@@ -25,7 +25,5 @@ function calcularPeso() {
     */
     if(altura == 0 || isNaN(altura)){
         alert("Por favor, informe altura corretamente");
-        inAltura.focus();
-        return;
     }
 }
