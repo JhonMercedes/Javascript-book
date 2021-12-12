@@ -44,13 +44,13 @@ var btCalcularPeso = document.getElementById("btCalcularPeso");
 btCalcularPeso.addEventListener("click", calcularPeso);
 
 function limparCampos () {
-    document.getElementById("inNome").value ="";
-    document.getElementById("rbFem").checked = false;
-    document.getElementById("rbMasc").checked = false;
-    document.getElementById("inAltura").value = "";
-    document.getElementById("outResultado").value = "";
+    document.getElementsByName("inNome").value ="";
+    document.getElementsByName("rbFem").checked = false;
+    document.getElementsByName("rbMasc").checked = false;
+    document.getElementsByName("inAltura").value = "";
+    document.getElementsByName("outResultado").value = "";
     // foco ao recarregar pagina inNome 
-    document.getElementById("inNome").focus();
+    document.getElementsByName("inNome").focus();
 
 }
 var btLimpar = document.getElementById("btLimpar");
