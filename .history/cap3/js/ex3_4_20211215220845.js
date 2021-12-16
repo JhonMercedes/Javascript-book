@@ -4,12 +4,11 @@ function mostrarHora() {
  
     var hora = Number(inHora.value);
 
-    if (inHora.value == "" || isNaN(hora)) {
+    if (inHora.value == "" || isNaN(hora.value)) {
         alert("Informe a hora no Brasil corretamente")
         inHora.focus();
         return;
     }
-
     var horaFranca = hora + 5 ;
 
     if (horaFranca > 24) {
