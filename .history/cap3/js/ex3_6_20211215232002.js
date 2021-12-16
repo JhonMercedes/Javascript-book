@@ -17,18 +17,18 @@ function calcularNotas () {
         return;
     }
 
-    // verifica se o saque não é multiplo de 10
+    // verifica se o saque não é multiplo de 100
     if (saque % 10 !=0 ) {
         alert("Valor inválido para notas disponiveis (R$ 10, 50, 100)");
         inSaque.focus();
         return;
     }
     //calcula notas de 100, 50 e 10
-    var notasCem = Math.floor(saque / 100);
+    var notasCem = Math.floor(saque/100);
     var resto = saque % 100;
-    var notasCinquenta = Math.floor(resto / 50);
+    var notasCinquenta = Math.floor(notasCinquenta);
     resto = resto % 50;
-    var notasDez = Math.floor(resto / 10);
+    var notasDez = Math.floor(resto/100);
 
     //exibe as notas apenas se houver
     if (notasCem > 0) {
