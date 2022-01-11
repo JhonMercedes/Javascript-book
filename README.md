@@ -54,3 +54,9 @@ Pasta Js inserida no projeto para solucionar os problemas
 6. Programa Caixa Eletronico 
 
 Desafios 
+
+a) Eleaborar um programa que leia um número. Informe se ele é par ou impar.
+
+b) Elaborar um programa que leia a velocidade permitida em uma estrada e a velocidade de um condutor. Se a velocidade for inferior ou igual a permitida , exiba "Sem multa. Se a velocidade for de até 20% maior permitida, exiba "Multa leve", e se a velocidade for superior a 20% da velocidade permitida, exiba "Multa grave".
+
+c) Eleaborar
