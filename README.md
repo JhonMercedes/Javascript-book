@@ -59,4 +59,8 @@ a) Eleaborar um programa que leia um número. Informe se ele é par ou impar.
 
 b) Elaborar um programa que leia a velocidade permitida em uma estrada e a velocidade de um condutor. Se a velocidade for inferior ou igual a permitida , exiba "Sem multa. Se a velocidade for de até 20% maior permitida, exiba "Multa leve", e se a velocidade for superior a 20% da velocidade permitida, exiba "Multa grave".
 
-c) Eleaborar
+c) Eleaborar um programa para simular um parquimetro, o qual leia o valor de moeda depositado em um terminal de estacionamento rotativo. O programa deve informar o tempo de permanencia do veiculo no local e o troco (se existir), como no exemplo . Se o valor for informar ao tempo minimo exiba a mensaem. Valor insuficiente.
+R$ 1.00 = 30min
+R$ 1.75 = 60min
+R$ 3.00 = 120min
+
