@@ -1,6 +1,7 @@
-# Lógica Programacao
+## Logica de Progamação e Algoritimos com JavaScript
 
-Algoritmos com JavaScritp
+Uma introdução á programação de computadores com exemplos e exercicios para iniciantes
+NOVATEC - Edecio Fernando Iepsen
 
 ## Capitulo 1  
 
